@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+* {
+box-sizing:border-box;
+margin:0;
+padding:0;
+border:0;
+outline:0;
+word-break:normal;
+word-wrap:break-word;
+}
+body {
+-webkit-text-size-adjust:100%;
+font-family:"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+font-size:14px;
+line-height:1.7;
+color:#333;
+-webkit-font-smoothing:subpixel-antialiased;
+-moz-osx-font-smoothing:auto;
+}
+
+small {
+font-size:80%;
+}
+ruby rt {
+font-size:50%;
+}
+sub,
+sup {
+font-size:64%;
+line-height:0;
+vertical-align:baseline;
+}
+sup {
+vertical-align:super;
+}
+sub {
+vertical-align:sub;
+}
+article,aside,figure,footer,header,main,menu,nav,section {
+display:block;
+}
+audio,canvas,video {
+display:inline-block;
+}
+img {
+vertical-align:bottom;
+}
+input,select {
+vertical-align:middle;
+}
+ul,ol {
+list-style-type:none;
+}
+h1,h2,h3,h4,h5,h6,strong {
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+a {
+color:#08c;
+text-decoration:none;
+}
+a:hover,a:active {
+text-decoration:underline;
+}
+a img {
+transition:opacity 0.5s ease-in-out;
+}
+a:hover img {
+opacity:0.8;
+}
+
+/* clearfix */
+.cf:after {
+display:block;
+content:"";
+clear:both;
+}
+
+
+/* css_end */
