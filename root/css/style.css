@@ -6,6 +6,7 @@ margin:0;
 padding:0;
 border:0;
 outline:0;
+font-style:normal;
 word-break:normal;
 word-wrap:break-word;
 }
@@ -16,26 +17,10 @@ font-size:14px;
 line-height:1.7;
 color:#333;
 -webkit-font-smoothing:subpixel-antialiased;
--moz-osx-font-smoothing:auto;
 }
 
 small {
 font-size:80%;
-}
-ruby rt {
-font-size:50%;
-}
-sub,
-sup {
-font-size:64%;
-line-height:0;
-vertical-align:baseline;
-}
-sup {
-vertical-align:super;
-}
-sub {
-vertical-align:sub;
 }
 article,aside,figure,footer,header,main,menu,nav,section {
 display:block;
@@ -47,6 +32,7 @@ img {
 vertical-align:bottom;
 }
 input,select {
+font-size:100%;
 vertical-align:middle;
 }
 ul,ol {
@@ -54,7 +40,6 @@ list-style-type:none;
 }
 h1,h2,h3,h4,h5,h6,strong {
 -webkit-font-smoothing:antialiased;
--moz-osx-font-smoothing:grayscale;
 }
 table {
 border-collapse:collapse;
@@ -81,6 +66,3 @@ display:block;
 content:"";
 clear:both;
 }
-
-
-/* css_end */
