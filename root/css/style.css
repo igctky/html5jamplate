@@ -1,5 +1,19 @@
 @charset "utf-8";
 
+@font-face {
+font-family:"YuGothic-M";
+font-weight:normal;
+src:local("YuGothic-Medium"),
+local("Yu Gothic Medium"),
+local("YuGothic-Regular");
+}
+@font-face {
+font-family:"YuGothic-M";
+font-weight:bold;
+src:local("YoGothic-Bold"),
+local("Yu Gothic");
+}
+
 * {
 box-sizing:border-box;
 margin:0;
@@ -9,19 +23,17 @@ outline:0;
 font-style:normal;
 word-break:normal;
 word-wrap:break-word;
+font-feature-settings:"halt";
 }
 body {
 -webkit-text-size-adjust:100%;
-font-family:"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+font-family:-apple-system,blinkMacSystemFont,"Hiragino Kaku Gothic ProN",YuGothic-M,YuGothic,sans-serif;
 font-size:14px;
 line-height:1.7;
 color:#333;
 -webkit-font-smoothing:subpixel-antialiased;
 }
 
-small {
-font-size:80%;
-}
 article,aside,figure,footer,header,main,menu,nav,section {
 display:block;
 }
@@ -31,7 +43,7 @@ display:inline-block;
 img {
 vertical-align:bottom;
 }
-input,select {
+input,select,textarea {
 font-size:100%;
 vertical-align:middle;
 }
@@ -40,6 +52,8 @@ list-style-type:none;
 }
 h1,h2,h3,h4,h5,h6,strong {
 -webkit-font-smoothing:antialiased;
+font-feature-settings:"palt";
+letter-spacing:.02em;
 }
 table {
 border-collapse:collapse;
