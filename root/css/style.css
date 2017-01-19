@@ -11,6 +11,7 @@ local("YuGothic-Regular");
 font-family:"YuGothic-M";
 font-weight:bold;
 src:local("YoGothic-Bold"),
+local("Yu Gothic Bold"),
 local("Yu Gothic");
 }
 
