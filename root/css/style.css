@@ -43,7 +43,6 @@ font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",YuGothic-M,YuGothic,"游
 font-size:14px;
 line-height:1.7;
 color:#333;
-font-feature-settings:"halt";
 }
 
 article,aside,figure,footer,header,main,menu,nav,section {
@@ -83,9 +82,6 @@ transition:opacity 0.5s ease-in-out;
 }
 a:hover img {
 opacity:0.8;
-}
-ruby {
-font-feature-settings:"pwid";
 }
 
 /* clearfix */
