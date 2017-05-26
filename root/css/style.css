@@ -14,6 +14,16 @@ src:local("YoGothic-Bold"),
 local("Yu Gothic Bold"),
 local("Yu Gothic");
 }
+@font-face {
+font-family:"Hiragino Sans";
+src:local(HiraginoSans-W4);
+font-weight:normal;
+}
+@font-face {
+font-family:"Hiragino Sans";
+src:local(HiraginoSans-W6);
+font-weight:bold;
+}
 
 * {
 box-sizing:border-box;
@@ -24,15 +34,16 @@ outline:0;
 font-style:normal;
 word-break:normal;
 word-wrap:break-word;
-font-feature-settings:"halt";
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
 }
 body {
 -webkit-text-size-adjust:100%;
-font-family:-apple-system,blinkMacSystemFont,"Hiragino Kaku Gothic ProN",YuGothic-M,YuGothic,sans-serif;
+font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",YuGothic-M,YuGothic,"游ゴシック",sans-serif;
 font-size:14px;
 line-height:1.7;
 color:#333;
--webkit-font-smoothing:subpixel-antialiased;
+font-feature-settings:"halt";
 }
 
 article,aside,figure,footer,header,main,menu,nav,section {
@@ -52,9 +63,8 @@ ul,ol {
 list-style-type:none;
 }
 h1,h2,h3,h4,h5,h6,strong {
--webkit-font-smoothing:antialiased;
 font-feature-settings:"palt";
-letter-spacing:.02em;
+letter-spacing:.01em;
 }
 table {
 border-collapse:collapse;
@@ -73,6 +83,9 @@ transition:opacity 0.5s ease-in-out;
 }
 a:hover img {
 opacity:0.8;
+}
+ruby {
+font-feature-settings:"pwid";
 }
 
 /* clearfix */
